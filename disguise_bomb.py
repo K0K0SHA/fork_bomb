@@ -10,6 +10,6 @@ if new_name:
     cmdstr = "chmod +x "
     cmdstr += new_name
     print("executing: \n" + cmdstr)
-    os.execute(cmdstr)
+    os.system(cmdstr)
 else:
     print("error in new_name")  
