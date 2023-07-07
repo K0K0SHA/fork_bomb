@@ -7,6 +7,7 @@ new_name = input("Please enter a new filename including extension\n") # you can 
 if new_name:
     print("renaming...")
     cmdstr = "mv " + fbomb_name + " " + new_name
+    os.system(cmdstr)
     cmdstr = "chmod +x "
     cmdstr += new_name
     print("executing: \n" + cmdstr)
