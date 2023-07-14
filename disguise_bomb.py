@@ -11,7 +11,7 @@ if new_name:
     os.system(cmdstr)
     cmdstr = "chmod +x "
     cmdstr += new_name
-    print("executing: \n" + cmdstr)
+    print("changing to executable ($_ chmod +x new_name): \n" + cmdstr)
     os.system(cmdstr)
 else:
     print("error in new_name")  
