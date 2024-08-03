@@ -8,9 +8,10 @@ Or don't. But be sure to save all your work first. Running a fork bomb should ca
  
 
 ## TODO
-[X] Rename script with Python 
-[ ] Fork bomb built into Python 
-[ ] Fork bomb built into C 
-[ ] Fork bomb built into C++ 
-[ ] Fork bomb built into Java 
-[ ] Fork bomb built into Go 
+[X] Rename script with Python  
+[ ] Fork bomb built into Python  
+[ ] Fork bomb built into C  
+[ ] Fork bomb built into C++  
+[ ] Fork bomb built into Java  
+[ ] Fork bomb built into Go  
+  
